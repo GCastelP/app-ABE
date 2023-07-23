@@ -96,4 +96,4 @@ Lorena Aguero -
 Darío Abel Garcia -
 Gisela Romero -
 José Sanabria -
-Oscar <José Padilla -
+Oscar José Padilla -
