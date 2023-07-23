@@ -1,13 +1,16 @@
 # app-ABE
 ABE
-proyecto-fxAcademy-2023
-En el presente se desarrollaran las actividades grupales propuestas del módulo programador fullstack
+proyecto-xAcademy-2023
+Trabajamos bajo metodologías ágiles que nos permite mantener la flexibilidad suficiente para
+adaptarnos a un contexto cambiante, siempre manteniendo guías de trabajo que todos los
+participantes en el proyecto deben conocer, según este procedimiento.
 
 Comenzando 🚀
 Objetivo:
 Desarrollar una aplicación la cual permita el alquiler de bienes muebles para eventos. Toda persona o
 empresa que requiera producir y organizar eventos de todo tipo y para todos los sectores y requiere el
 alquiler de bienes muebles para tal fin.
+
 Requerimientos funcionales:
 Login de usuarios. Al menos 3 perfiles: vendedor, comprador, administrador.
 Creación de perfiles: vendedor + comprador.
@@ -16,6 +19,32 @@ Pantalla detalle del mueble o servicio.
 Página del listado de productos publicados para el alquiler.
 Preparación del presupuesto y método de envío/retiro.
 Confirmación de contratación del producto o servicio
+
+Plan de trabajo 
+Iteración 0 - Fase inicio del proyecto de desarrollo
+  Durante esta etapa el equipo se concentra principalmente en determinar adecuadamente cual es el
+  alcance del proyecto, teniendo siempre en cuenta la posibilidad de definir un MVP el cual permita
+  definir un objetivo alcanzable. El Producto Mínimo Viable (comúnmente conocido como MVP por
+  sus siglas en inglés), estará compuesto por la cantidad mínima de funcionalidades.
+
+Sprint Cycles - Ciclos de Iteración
+  Planificación de la Iteración: Al inicio de cada iteración se llevará a cabo una reunión de planificación,
+  para revisar la definición de las historias de usuario y estimar individualmente las tareas que será
+  necesario cumplimentar para desarrollar dichas funcionalidades.
+
+Testing: Durante la fase de desarrollo que se lleva a cabo por cada sprint, también ocurre una fase de
+testing, en la que el equipo de testing revisa las funcionalidades desarrolladas, con el objetivo de
+encontrar inconvenientes de manera temprana y asegurar que el equipo de desarrollo pueda
+corregirlas a tiempo y que la calidad del entregable final esté dentro de los estándares de la empresa.
+
+Retrospectiva y Demo: Esta reunión ocurre al fin de cada iteración y tiene como finalidad obtener
+feedback (retroalimentación) de manera temprana, que permita al equipo corregir cualquier tipo de
+actividad que no se esté realizando de la forma más eficiente.
+Finalmente se concluye la iteración con una demostración del entregable parcial que se ha definido
+como parte del alcance para la iteración correspondiente, con el objetivo de que el cliente pueda
+aportar feedback frecuentemente y de esta forma poder, de ser necesario, alinear las sucesivas
+iteraciones a las necesidades del mismo.
+
 
 Metodologias y flujo de trabajo 🤝
 El equipo utiliza la metodología Scrum para la gestión del proyecto, Trello y GitFlow para el control de versiones. La metodología Scrum permite al equipo trabajar de manera colaborativa, enfocarse en el desarrollo iterativo y mantener una comunicación constante con el cliente. El flujo de trabajo Trello y GitFlow busca asegurar que el Equipo 44(E44) lleve adelante de manera apropiada el desarrollo y mantener en ramas separadas para desarrollar nuevas funcionalidades, arreglar bugs y realizar pruebas, antes de integrar el código en la rama principal del proyecto.
