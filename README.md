@@ -49,13 +49,28 @@ iteraciones a las necesidades del mismo.
 Metodologias y flujo de trabajo 🤝
 El equipo utiliza la metodología Scrum para la gestión del proyecto, Trello y GitFlow para el control de versiones. La metodología Scrum permite al equipo trabajar de manera colaborativa, enfocarse en el desarrollo iterativo y mantener una comunicación constante con el cliente. El flujo de trabajo Trello y GitFlow busca asegurar que el Equipo 44(E44) lleve adelante de manera apropiada el desarrollo y mantener en ramas separadas para desarrollar nuevas funcionalidades, arreglar bugs y realizar pruebas, antes de integrar el código en la rama principal del proyecto.
 
-En el flujo de trabajo de GitFlow a ser utilizado por el equipo, se crearan varias ramas para organizar el trabajo y facilitar la colaboración. A continuación se describen brevemente cada una de las ramas a utilizar:
 
-Main: Esta es la rama principal del proyecto, donde se encuentra el código estable y listo para ser entregado al cliente. Se espera que el código en esta rama sea siempre funcional y libre de errores críticos.
+GESTION DE PROYECTO
+Subir al repo grupal en GitHub, mediante comandos GIT desde el local, se creará una branch por desarrollador para que cada uno tenga una copia, o directamente se crear una branch FEATURE, para actualizar los cambios que no se encuentran aún en condiciones de incorporarse a la branch DEVELOP.
+En GitHub, mediante la sección WIKI deben reflejar los avances individuales y de equipo en relación a Scrum (Ceremonias, roles, historias de usuarios, etc).
+“FEATURE” son las branchs en las que se trabaja la mayor parte del tiempo. Cuando no se utilizan más se borran.
 
-Develop: Esta rama es donde los desarrolladores trabajan en nuevas funcionalidades o en la refactorización del código existente. Cada desarrollador puede tener su propia rama de desarrollador derivada de la rama principal, donde se trabaja en el código de manera independiente.
 
-Rama de cada integrante: Las ramas de esta característica se crean a partir de la rama "develop", y se utilizan para desarrollar nuevas funcionalidades para el software. Una vez que la funcionalidad está completa, la rama de la característica se integra en la rama "developer", donde se lleva a cabo la integración del código.
+
+
+En el flujo de trabajo de GitFlow a ser utilizado por el equipo, se crearan varias ramas para organizar el trabajo y facilitar la colaboración.
+A continuación se describen brevemente cada una de las ramas a utilizar:
+
+MAIN: Esta es la rama principal del proyecto, donde se encuentra el código estable y listo para ser entregado al cliente. Se espera que el código en esta rama sea siempre funcional y libre de errores críticos.
+La branch MAIN o MASTER es la que suele usarse para mantener las versiones estables (productivas) de nuestros proyectos. Listas para
+salir a producción. Se supone que en cada cierre de Sprint, queda lo solicitado en esa condición, por lo que:
+Para el cierre de cada SPRINT si  deberá realizarse un MERGE a la rama MAIN/MASTER como constancia que está completo dicho Sprint para
+la Review (en producción)***
+
+DEVELOP: Esta rama es donde los desarrolladores trabajan en nuevas funcionalidades o en la refactorización del código existente. Cada desarrollador puede tener su propia rama de desarrollador derivada de la rama principal, donde se trabaja en el código de manera independiente.
+DEVELOP es la branch donde se mantiene la versión de desarrollo más estable y reciente. La que es candidata para pasar a ser la principal (MAIN).
+
+FEATURE son las branchs en las que se trabaja la mayor parte del tiempo. Cuando no se utilizan más se borran.Rama de cada integrante: Las ramas de esta característica se crean a partir de la rama "develop", y se utilizan para desarrollar nuevas funcionalidades para el software. Una vez que la funcionalidad está completa, la rama de la característica se integra en la rama "develop", donde se lleva a cabo la integración del código.
 
 Hotfix: Si surge un problema crítico en la versión actual del software, se crea una rama de Hotfix para solucionar el problema lo antes posible. La rama Hotfix se deriva de la rama principal, y después de que se ha corregido el problema, se integra de nuevo en la rama principal.
 
